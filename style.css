@@ -79,8 +79,10 @@ button {
 
   /* Start of the program */
 
-.leavesImg {
-    max-width: 35%;
+
+
+  .leavesImg {
+    width: 35%;
     height: 100vh;
 }
 
@@ -88,18 +90,16 @@ button {
   color: white;
   opacity: 1;
   font-size: 75px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
+  position: relative;
   font-family: odinFont;
+  left:35%
 }
 
 .textContainer {
   background-color: rgba(0,0,0,0.5);
   height: 110px;
-  width: 31.9%;
   position: absolute;
+  width: 31.9%;
   top: 15%;
 }
 
@@ -110,4 +110,31 @@ button {
   left: 24%;
   top: 24%;
   transform: translate(-24%,-24%);
-}
+  }
+
+  .part1 {
+    background-color: aquamarine;
+    padding-left: 40px;
+    padding-right: 110px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+  }
+
+  .text1 {
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .text2 {
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: row;
+  }
+
