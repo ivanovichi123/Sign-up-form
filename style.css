@@ -1,3 +1,13 @@
+/* start of css font */
+@font-face {
+  font-family: odinFont;
+  src: url('Font/Font1/norse-bold-webfont.woff2') format('woff2'),
+       url('Font/Font1/norse-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* finish of css font */
+
 /* css reset */
 /*
   1. Use a more-intuitive box-sizing model.
@@ -77,11 +87,12 @@ button {
 .textImage {
   color: white;
   opacity: 1;
-  font-size: 60px;
+  font-size: 75px;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
+  font-family: odinFont;
 }
 
 .textContainer {
@@ -92,3 +103,11 @@ button {
   top: 15%;
 }
 
+.imageContainer {
+  height: 65px;
+  width: 65px;
+  position: absolute;
+  left: 24%;
+  top: 24%;
+  transform: translate(-24%,-24%);
+}
