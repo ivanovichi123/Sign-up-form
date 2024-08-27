@@ -130,6 +130,11 @@ button {
   font-weight: bolder;
 }
 
+#part2 {
+  border-bottom: outset;
+}
+
+
 .space {
   padding-top: 15px;
 }
