@@ -119,8 +119,19 @@ button {
 
 
 #part1 {
-  background-color: blue;
+  background-color: rgb(245, 245, 245);
   text-wrap: wrap;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  padding-left: 540px;
+  padding-right: 250px;
+  font-size: calc(0.8rem + 5px);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+
+.space {
+  padding-top: 15px;
 }
 
 .image {
