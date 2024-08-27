@@ -81,5 +81,13 @@ button {
 
 
 
+.image {
+  background-image: url(Images/Leaves.avif);
+  /* max-width: 35%;
+  height: 100vh; */
+  background-size: cover;
+  width: 35%;
+  height: 100vh;
+}
 
 
