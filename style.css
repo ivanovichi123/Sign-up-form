@@ -83,11 +83,35 @@ button {
 
 .image {
   background-image: url(Images/Leaves.avif);
-  /* max-width: 35%;
-  height: 100vh; */
   background-size: cover;
   width: 35%;
   height: 100vh;
 }
 
+.textContainer {
+  width: inherit;
+  height: 15%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 20%;
+  }
 
+#odinImage {
+  height: 65px;
+  width: 65px;
+  position: absolute;
+  left: 24%;
+  top: 24%;
+  transform: translate(-24%,-24%);
+}
+
+#odinText {
+  font-family: odinFont;
+  color: white;
+  left: 35%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  font-size: calc(3.5rem + 30px);
+}
