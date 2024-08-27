@@ -86,11 +86,12 @@ button {
   background-size: cover;
   width: 35%;
   height: 100vh;
+
 }
 
 .textContainer {
   width: inherit;
-  height: 15%;
+  height: 110px;
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 20%;
@@ -114,4 +115,14 @@ button {
   top: 50%;
   transform: translate(-50%,-50%);
   font-size: calc(3.5rem + 30px);
+}
+
+
+#part1 {
+  background-color: blue;
+  text-wrap: wrap;
+}
+
+.image {
+  float: left;
 }
