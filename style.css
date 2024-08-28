@@ -86,7 +86,7 @@ button {
   background-size: cover;
   width: 35%;
   height: 100vh;
-
+  float: left;
 }
 
 .textContainer {
@@ -132,6 +132,7 @@ button {
 
 #part2 {
   border-bottom: outset;
+  /* display: flex; */
 }
 
 
@@ -139,6 +140,12 @@ button {
   padding-top: 15px;
 }
 
-.image {
-  float: left;
+
+
+.left {
+  float:left;
+}
+
+.right {
+  text-align: right;
 }
