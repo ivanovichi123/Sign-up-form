@@ -160,3 +160,24 @@ button {
   .padding {
     padding-top: 15px;
   }
+
+  button {
+    margin-top: 25px;
+    margin-left: 60px;
+    color: white;
+    background-color: rgb(61, 119, 23);
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .log_in {
+    padding-left: 540px;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  span {
+    color: green;
+    font-weight: bolder;
+  }
+
