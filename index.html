@@ -29,44 +29,47 @@
             <form action="example.com/path" method="post">
             <p class="part_two_text">Let's do this!</p>
             <div class="left">
-                <p class="padding"><label for="first_name"><span>FIRST NAME</span></label>
+                <p class="padding"><label for="first_name">FIRST NAME <strong><span aria-label="required">*</span></strong></label>
                     <br/>
-                    <input type="text" id="first_name" placeholder="Ivan"text name="firstName">
+                    <input type="text" id="first_name" placeholder="Ivan"text name="firstName" required>
                 </p>
                 <p class="padding">
-                    <label for="user_email">EMAIL</label>
+                    <label for="user_email">EMAIL <strong><span aria-label="required">*</span></strong></label>
                     <br/>
-                    <input type="email" id="user_email" placeholder="you@example.com" name="email">
+                    <input type="email" id="user_email" placeholder="you@example.com" name="email" required>
                 </p>
                 <p class="padding">                
-                    <label for="user_password">PASSWORD</label>
+                    <label for="user_password">PASSWORD <strong><span aria-label="required">*</span></strong></label>
                     <br/>
-                    <input type="password" id="user_password" name="password">
+                    <input type="password" id="user_password" name="password" required
+                    minlength="5" maxlength="15">
                 </p>
 
             </div>
             <div class="right">
                 <p class="padding">                
-                    <label for="last_name">LAST NAME</label>
+                    <label for="last_name">LAST NAME <strong><span aria-label="required">*</span></strong></label>
                     <br/>
-                    <input type="text" id="last_name" placeholder="Rodriguez" name="lastName">
+                    <input type="text" id="last_name" placeholder="Rodriguez" name="lastName" required>
                 </p>
                 <p class="padding">                
-                    <label for="phone_number">PHONE NUMBER</label>
+                    <label for="phone_number">PHONE NUMBER <strong><span aria-label="required">*</span></strong></label>
                     <br/>
-                    <input type="tel" name="phoneNumber" id="phone_number">
+                    <input type="tel" name="phoneNumber" id="phone_number" required 
+                    minlength="10" maxlength="10">
                 </p>
                 <p class="padding">                
-                    <label for="confirm_password">CONFIRM PASSWORD</label>
+                    <label for="confirm_password">CONFIRM PASSWORD <strong><span aria-label="required">*</span></strong></label>
                     <br/>
-                    <input type="password" id="confirm_password" name="confirmPassword">
+                    <input type="password" id="confirm_password" name="confirmPassword" required
+                    minlength="5" maxlength="15">
                 </p>
             </div>
         </div>
         <div id="part3">
             <button type="submit">Create Account</button>
             </form>
-            <p class="log_in">Already have an account? <span>Log in</span></p>
+            <p class="log_in">Already have an account? <span class="green" >Log in</span></p>
         </div>
     </div>
 </body>

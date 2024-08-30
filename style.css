@@ -131,7 +131,6 @@ button {
 
 #part2 {
   border-bottom: outset;
-  /* display: flex; */
 }
 
 .space {
@@ -165,9 +164,15 @@ button {
     margin-top: 25px;
     margin-left: 60px;
     color: white;
-    background-color: rgb(61, 119, 23);
+    background-color: #596D48;
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    border-style: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 170px;
+    cursor: pointer;
   }
 
   .log_in {
@@ -176,8 +181,30 @@ button {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
-  span {
+  .green {
     color: green;
     font-weight: bolder;
+    cursor: pointer;
   }
 
+label {
+  font-size: calc(1rem - 3px)
+}
+
+input:required {
+  border: 1px solid #E5E7EB;
+  border-radius: 2px;
+}
+
+input:focus {
+  outline-color: rgb(61, 184, 201); 
+  box-shadow: 3px 3px 10px grey;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+input:valid {
+  border: 1px solid green
+}
